@@ -13,19 +13,39 @@
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.csantos.buildyourown.ui.gallery.GalleryFragment"
+        android:name="com.csantos.buildyourown.ui.avisos.AvisosFragment"
         android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_avisos" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.csantos.buildyourown.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_ferramentas"
+        android:name="com.csantos.buildyourown.ui.vectary.FerramentasFragment"
+        android:label="@string/menu_ferramentas"
+        tools:layout="@layout/fragment_ferramentas" />
 
     <fragment
-        android:id="@+id/nav_webview"
-        android:name="com.csantos.buildyourown.ui.webview.WebviewFragment"
-        android:label="@string/menu_webview"
-        tools:layout="@layout/fragment_webview" />
+        android:id="@+id/nav_componentes"
+        android:name="com.csantos.buildyourown.ui.vectary.ComponentesFragment"
+        android:label="@string/menu_componentes"
+        tools:layout="@layout/fragment_componentes" />
+
+    <fragment
+        android:id="@+id/nav_pecas"
+        android:name="com.csantos.buildyourown.ui.vectary.PecasFragment"
+        android:label="@string/menu_pecas"
+        tools:layout="@layout/fragment_pecas" />
+
+    <fragment
+        android:id="@+id/nav_montagem"
+        android:name="com.csantos.buildyourown.ui.montagem.MontagemFragment"
+        android:label="@string/menu_montagem"
+        tools:layout="@layout/fragment_montagem" />
+
+    <fragment
+        android:id="@+id/nav_produto"
+        android:name="com.csantos.buildyourown.ui.produto.ProdutoFragment"
+        android:label="@string/menu_produto"
+        tools:layout="@layout/fragment_produto" />
+
+
 </navigation>

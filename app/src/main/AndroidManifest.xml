@@ -10,7 +10,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.BuildYourOwn">
+        android:theme="@style/Theme.BuildYourOwn"
+        android:name=".MyApplication">
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -22,6 +24,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MontagemActivity"
+            android:label="@string/app_name" />
+
+        <activity android:name=".FerramentasActivity"
+            android:label="@string/app_name" />
+
+        <activity android:name=".ComponentesActivity"
+            android:label="@string/app_name" />
+
+        <activity android:name=".PecasActivity"
+            android:label="@string/app_name" />
+
+        <activity android:name=".AvisosActivity"
+            android:label="@string/app_name" />
+
     </application>
 
 </manifest>

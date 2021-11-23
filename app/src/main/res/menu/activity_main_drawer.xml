@@ -13,12 +13,24 @@
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/menu_gallery" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_ferramentas"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:title="@string/menu_ferramentas" />
         <item
-            android:id="@+id/nav_webview"
+            android:id="@+id/nav_componentes"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_webview" />
+            android:title="@string/menu_componentes" />
+        <item
+            android:id="@+id/nav_pecas"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_pecas" />
+        <item
+            android:id="@+id/nav_montagem"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_montagem" />
+        <item
+            android:id="@+id/nav_produto"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_produto" />
     </group>
 </menu>

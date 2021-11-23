@@ -11,7 +11,9 @@ public class WebviewViewModel extends ViewModel {
 
     public WebviewViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("https://www.vectary.com/viewer/v1/?model=da207ecb-98ed-47d8-b606-3b29d017ca69&env=studio3");
+        mText.setValue("https://www.vectary.com/viewer/v1/?model=766e9273-c8ce-4203-a1d3-eefb9c8349a8&env=studio3");
+        //"https://www.vectary.com/viewer/v1/?model=766e9273-c8ce-4203-a1d3-eefb9c8349a8&env=studio3"
+
     }
 
     public LiveData<String> getText() {

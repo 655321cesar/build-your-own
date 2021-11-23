@@ -14,6 +14,7 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.csantos.buildyourown.databinding.FragmentWebviewBinding;
+import com.csantos.buildyourown.ui.videoview.VideoviewFragment;
 
 public class WebviewFragment extends Fragment {
 
@@ -30,17 +31,25 @@ public class WebviewFragment extends Fragment {
         View root = binding.getRoot();
 
         final WebView webView = binding.webview;
-        webviewViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                webView.getSettings().setJavaScriptEnabled(true);
-                webView.loadUrl(s);
 
-            }
-        });
+        webView.getSettings().setJavaScriptEnabled(true);
+        webView.loadUrl(getArguments().getString("msg"));
+
+
         return root;
 
 
+    }
+
+    public static WebviewFragment newInstance(String text) {
+
+        WebviewFragment f = new WebviewFragment();
+        Bundle b = new Bundle();
+        b.putString("msg", text);
+
+        f.setArguments(b);
+
+        return f;
     }
 
     @Override

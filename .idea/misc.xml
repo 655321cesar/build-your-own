@@ -10,11 +10,21 @@
         <entry key="..\:/prog/Android/BuildYourOwn/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.4036458333333333" />
         <entry key="..\:/prog/Android/BuildYourOwn/app/src/main/res/drawable/side_nav_bar.xml" value="0.4036458333333333" />
         <entry key="..\:/prog/Android/BuildYourOwn/app/src/main/res/layout/activity_main.xml" value="0.29528985507246375" />
+        <entry key="..\:/prog/Android/BuildYourOwn/app/src/main/res/layout/activity_swipe.xml" value="0.21927083333333333" />
         <entry key="..\:/prog/Android/BuildYourOwn/app/src/main/res/layout/app_bar_main.xml" value="0.28894927536231885" />
         <entry key="..\:/prog/Android/BuildYourOwn/app/src/main/res/layout/content_main.xml" value="0.29528985507246375" />
+        <entry key="..\:/prog/Android/BuildYourOwn/app/src/main/res/layout/fragment_avisos.xml" value="0.21927083333333333" />
+        <entry key="..\:/prog/Android/BuildYourOwn/app/src/main/res/layout/fragment_componentes.xml" value="0.3496376811594203" />
+        <entry key="..\:/prog/Android/BuildYourOwn/app/src/main/res/layout/fragment_ferramentas.xml" value="0.3496376811594203" />
         <entry key="..\:/prog/Android/BuildYourOwn/app/src/main/res/layout/fragment_gallery.xml" value="0.29528985507246375" />
+        <entry key="..\:/prog/Android/BuildYourOwn/app/src/main/res/layout/fragment_gallery2.xml" value="0.21927083333333333" />
         <entry key="..\:/prog/Android/BuildYourOwn/app/src/main/res/layout/fragment_home.xml" value="0.29528985507246375" />
+        <entry key="..\:/prog/Android/BuildYourOwn/app/src/main/res/layout/fragment_image.xml" value="0.2171875" />
+        <entry key="..\:/prog/Android/BuildYourOwn/app/src/main/res/layout/fragment_montagem.xml" value="0.3496376811594203" />
+        <entry key="..\:/prog/Android/BuildYourOwn/app/src/main/res/layout/fragment_pecas.xml" value="0.3496376811594203" />
+        <entry key="..\:/prog/Android/BuildYourOwn/app/src/main/res/layout/fragment_produto.xml" value="0.3496376811594203" />
         <entry key="..\:/prog/Android/BuildYourOwn/app/src/main/res/layout/fragment_slideshow.xml" value="0.21927083333333333" />
+        <entry key="..\:/prog/Android/BuildYourOwn/app/src/main/res/layout/fragment_video.xml" value="0.21927083333333333" />
         <entry key="..\:/prog/Android/BuildYourOwn/app/src/main/res/layout/fragment_webview.xml" value="0.28894927536231885" />
         <entry key="..\:/prog/Android/BuildYourOwn/app/src/main/res/layout/nav_header_main.xml" value="0.28894927536231885" />
         <entry key="..\:/prog/Android/BuildYourOwn/app/src/main/res/menu/activity_main_drawer.xml" value="0.3875" />
